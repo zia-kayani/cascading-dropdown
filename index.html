@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Dropdown Chain</title>
+</head>
+<body>
+<main class="center">
+<h1>Task</h1>
+<ul>
+<li><h4>Create a chain of select dropdown like first have countries like pakistan, india, china</h4></li>
+<li><h4>Second select box auto pick relevant states</h4></li>
+<li><h4>Third will pick cities as per selected state</h4></li>
+</ul>
+<label for="country">Country:</label>
+<select id="country" onchange="if (!window.__cfRLUnblockHandlers) return false; populateStates()" data-cf-modified-b1abb098c339db18c1ceabbe->
+<option value>Select a Country</option>
+<option value="pakistan">Pakistan</option>
+<option value="india">India</option>
+<option value="china">China</option>
+</select>
+<label for="state">State:</label>
+<select id="state" onchange="if (!window.__cfRLUnblockHandlers) return false; populateCities()" data-cf-modified-b1abb098c339db18c1ceabbe->
+
+</select>
+<label for="city">City:</label>
+<select id="city">
+
+</select>
+<br>
+<br>
+<div id="outputDiv"></div>
+</main>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="b1abb098c339db18c1ceabbe-|49" defer></script></body>
+<script type="b1abb098c339db18c1ceabbe-text/javascript" src="script.js"></script>
+</html>
